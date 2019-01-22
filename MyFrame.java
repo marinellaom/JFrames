@@ -32,6 +32,7 @@ public class MyFrame extends JFrame implements KeyListener{
 			drawing.moveLeft();
 			System.out.println("pos:" + drawing.x + "," + drawing.y);	
 		}
+		drawing.reloadImage();
 	}
 
 	public void keyReleased(KeyEvent e){
